@@ -1,0 +1,52 @@
+.f-perfil {
+    width: 35%;
+    height: 300px;
+    margin-left: 5px;
+}
+.f-perfil img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-left: 25%;
+    margin-top: 25px;
+    transition: all .5s;
+    border: 10px solid transparent;
+}
+.f-perfil:hover
+img {
+    border: 10px solid #136497;
+    border-radius: 50%;
+    }
+
+.menu{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 250px;
+}
+.figure-img p{
+    margin-left: 10px;
+    display: flex;
+    justify-items: center;
+    font-size: 1.5rem;
+    line-height: 1,2em;
+    font-weight: bold;
+    color: #fff;
+    text-shadow: black 0.1em 0.1em 0.2em;
+    
+  
+    
+}
+
+.p-2{
+    font-size: 1.5rem;
+    color:#fff;
+}
+.menu p{
+    visibility: hidden;
+}
+.menu:hover p{
+    visibility: visible;
+    transition: all .5s;
+   transition-delay: 1.2ss;
+}
